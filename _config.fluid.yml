@@ -243,7 +243,7 @@ web_analytics:  # 网页访问统计
   enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
-  follow_dnt: true
+  follow_dnt: false
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
   # Baidu analytics, get the string behind `hm.js?`
@@ -280,7 +280,7 @@ web_analytics:  # 网页访问统计
     app_key: OsalAbhpXsZ4Gun4YsEEw3vo
     # REST API 服务器地址，国际版不填
     # Only the Chinese mainland users need to set
-    server_url:
+    server_url: https://kewix0ev.api.lncldglobal.com
     # 统计页面时获取路径的属性
     # Get the attribute of the page path during statistics
     path: window.location.pathname
@@ -417,11 +417,11 @@ open_graph:
 footer:
   # 页脚第一行文字的 HTML，建议保留 Fluid 的链接，用于向更多人推广本主题
   # HTML of the first line of the footer, it is recommended to keep the Fluid link to promote this theme to more people
-  content: '
-    <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
-    <i class="iconfont icon-love"></i>
-    <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
-  '
+  # content: '
+  #   <a href="https://hexo.io" target="_blank" rel="nofollow noopener"><span>Hexo</span></a>
+  #   <i class="iconfont icon-love"></i>
+  #   <a href="https://github.com/fluid-dev/hexo-theme-fluid" target="_blank" rel="nofollow noopener"><span>Fluid</span></a>
+  # '
 
   # 展示网站的 PV、UV 统计数
   # Display website PV and UV statistics
