@@ -16,6 +16,8 @@
 # Global
 #---------------------------
 
+custom_head: '<meta name="baidu-site-verification" content="codeva-sCG3w6SUXm" /> <meta name="google-site-verification" content="hBG2ZSHSDgFcThI51RPxkuYPhTA9GMu8rj2QIxUQZPs" />'
+
 # 用于浏览器标签的图标
 # Icon for browser tab
 favicon: /img/fluid.png
