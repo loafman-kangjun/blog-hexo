@@ -243,8 +243,6 @@ web_analytics:  # 网页访问统计
   enable: true
 
   # 遵循访客浏览器"请勿追踪"的设置，如果开启则不统计其访问
-  # Follow the "Do Not Track" setting of the visitor's browser
-  # See: https://www.w3.org/TR/tracking-dnt/
   follow_dnt: true
 
   # 百度统计的 Key，值需要获取下方链接中 `hm.js?` 后边的字符串
@@ -957,7 +955,7 @@ about:
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
-    - { class: "iconfont icon-github-fill", link: "https://github.com", tip: "GitHub" }
+    - { class: "iconfont icon-github-fill", link: "https://github.com/loafman-kangjun", tip: "GitHub" }
     - { class: "iconfont icon-douban-fill", link: "https://douban.com", tip: "豆瓣" }
     - { class: "iconfont icon-wechat-fill", qrcode: "/img/favicon.png" }
 
